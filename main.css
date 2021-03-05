@@ -1,0 +1,89 @@
+body {
+  min-height: 100vh;
+  background: #f2f2f2;
+  padding: 2rem;
+}
+
+p {
+  margin: 0;
+}
+
+.poem {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.circle-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.red-circle {
+  background: red;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.blue-circle {
+  background: blue;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.green-circle {
+  background: green;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.black-circle {
+  background: black;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.white-circle {
+  background: white;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.orange-box {
+  width: 5rem;
+  height: 5rem;
+  background: orange;
+  margin: 1rem;
+  transition: width 0.25s;
+}
+.cat{
+  position:absolute;
+  top:2rem;
+  left:2rem;
+  width:300px;
+display:none;
+}
+
+.cat.active{
+  display: flex;
+}
+
+.dogs{
+  position:absolute;
+  top:2rem;
+  right:20%;
+  width: 2rem;
+  
+}
+.dogs.active{
+  width:500px;
+}
