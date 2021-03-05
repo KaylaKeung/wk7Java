@@ -115,8 +115,6 @@ increaseDogImage.addEventListener("mouseover", function(){
 
 // when users hovers off, it disappers 
 
-increaseDogImage.addEventListener("mouseout", smallDogs)
-function smallDogs(){
+increaseDogImage.addEventListener("mouseout", function(){
     dogs.classList.remove("active")
-}
-
+})
